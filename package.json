@@ -1,0 +1,15 @@
+{
+  "name": "countrytailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/main.css -o ./src/styles.css",
+    "watch": "npx tailwindcss -i ./src/main.css -o ./src/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
